@@ -1,5 +1,7 @@
 # PPT-GPT
 
+![PPT-GPT](assets/banner.webp)
+
 Steuerzentrale für Konferenzen und Vortragsreihen unter Windows: Ein Zeitplan
 (Timetable) mit allen Beiträgen, aus dem heraus Präsentationen, PDFs, Videos,
 Bilder und Links geöffnet und gesteuert werden – per Klick oder per
