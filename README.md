@@ -17,9 +17,10 @@ Das Programm heißt im Fenster und als Datei **PPT Operator**.
 - **Timetable** mit Start, Ende, Referent·in, Thema und Datei oder Link je
   Eintrag; Sortieren per Drag & Drop, Speichern und Laden als JSON,
   automatisches Zwischenspeichern.
-- **Präsentationen starten und steuern** – PowerPoint (`.ppt`, `.pptx`) und
-  LibreOffice Impress (`.odp`) öffnen direkt im Vollbild ab Folie 1. PDFs
-  laufen im Browser-Vollbild.
+- **Präsentationen starten und steuern** – `.ppt`, `.pptx` und `.odp` starten
+  direkt als Bildschirmpräsentation ab Folie 1: mit Microsoft PowerPoint oder,
+  wenn das nicht installiert ist, mit LibreOffice bzw. Apache OpenOffice
+  (Impress). PDFs laufen im Browser-Vollbild.
 - **Sprachsteuerung, offline** – mit Whisper (genau) oder Vosk (schnell und
   leicht), optional mit Aktivierungswort. Beispiele: „nächste Folie",
   „zurück", „springe zu Folie 5", „starte Präsentation", „beende
@@ -56,7 +57,8 @@ Programme, die mit PyInstaller gebaut wurden, fälschlich als verdächtig.
 
 - Windows 10 oder 11, 64 Bit
 - ein aktueller Browser, empfohlen Edge, Chrome oder Brave (für das Mikrofon)
-- PowerPoint oder LibreOffice, wenn Präsentationen gezeigt werden sollen
+- Microsoft PowerPoint, LibreOffice oder Apache OpenOffice, wenn
+  Präsentationen gezeigt werden sollen
 - etwa 250 MB Speicherplatz für das Programm, zusätzlich für die Sprachmodelle
 - Internetverbindung beim ersten Einschalten des Mikrofons
 
@@ -78,7 +80,7 @@ Erkennung läuft auf dem Prozessor; auf langsameren Rechnern empfiehlt sich
 
 ## Wichtig zu wissen
 
-- **„Ende" schließt PowerPoint bzw. LibreOffice vollständig.** Damit die
+- **„Ende" schließt PowerPoint, LibreOffice bzw. OpenOffice vollständig.** Damit die
   nächste Präsentation sauber startet, beendet das Programm die jeweilige
   Anwendung samt aller offenen Dateien. Andere Präsentationen vorher speichern.
 - **Fernsteuerung nur vom eigenen Rechner.** Die Oberfläche ist ausschließlich
